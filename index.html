@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GitHub Profile Searcher</title>
+    <title>GitHub Profile Search</title>
     <link rel="stylesheet" href="styles.css" />
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
     <div class="container">
@@ -14,14 +16,50 @@
         </div>
         <div class="row">
             <div class="user-info">
-                <div class="user-img"></div>
-                <div class="user-name"></div>
-                <div class="user-follow"></div>
-                <div class="visit-user"></div>
+                <div class="user-img">
+                  <img src="@" alt="GitHub Profile Picture">
+                </div>
+                <div class="user-name">
+                  <h2>Name</h2>
+                  <h3>Username</h3>
+                </div>
+                <div class="follow">
+                  <div class="followers">
+                    <h2>Followers</h2>
+                    <span>0</span
+                  </div>
+                  <div class="following">
+                    <h2>Following</h2>
+                    <span>0</span>
+                  </div>
+                  <div class="repos">
+                    <h2>Repos</h2>
+                    <h3>0</h3>
+                  </div>
+                </div>
+                <div class="visit-user">
+                  <a href="#">Visit Profile</a>
+                </div>
             </div>
             <div class="repos">
                 <h2>REPO's</h2>
-                <div class="repo-list"></div>
+                <div class="repo-list">
+                  <div class="items">
+                    <div class="repo-name">Repo Name</div>
+                    <div class="repo-details">
+                      <div class="info-star">
+                        <i class="1"></i>
+                      </div>
+                      <div class="info-fork">
+                        <p><i class="class"></i></p>
+                      </div>
+                      <div class="info-size">
+                        <p><i class="class"></i></p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
             </div>
         </div>
     </div>
