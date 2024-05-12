@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GitHub Profile Searcher</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="search-wrapper">
+            <input type="text" placeholder="Enter Git-Hub Username " class="input-username"/>
+            <div class="Btn">Search</div>
+        </div>
+        <div class="row">
+            <div class="user-info">
+                <div class="user-img"></div>
+                <div class="user-name"></div>
+                <div class="user-follow"></div>
+                <div class="visit-user"></div>
+            </div>
+            <div class="repos">
+                <h2>REPO's</h2>
+                <div class="repo-list"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
