@@ -107,3 +107,13 @@ body{
     justify-content: space-evenly;
     margin-top: 0.8rem;
 }
+.follow .item{
+	font-size: 1.4rem;
+}
+.follow span{
+	font-size: 1.2rem;
+	font-weight: bold;
+	display: block;
+	margin-top: .7rem;
+}
+/* repository section design */
