@@ -58,3 +58,52 @@ body{
 	transition: all .5s ease;
 	background-color: #54a0ff;
 }
+/* user information section */
+.info-display-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60rem;
+    box-shadow: 0 0 1rem #fff;
+}
+.info-display-div .user-info{
+    width: 100%;
+    height: 65vh;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16rem;
+    overflow: hidden;
+
+}
+.info-display-div img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #000;
+}
+.info-display-div .user-name{
+    display: block;
+    margin: 1rem;
+    text-align: center;
+}
+.info-display-div h3{
+	font-size: 1.2rem;
+	margin:0;
+}
+.info-display-div h2{
+	text-align: center;
+	font-size: 1.8rem;
+	margin: .5rem 0;
+}
+.info-display-div .follow{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 0.8rem;
+}
