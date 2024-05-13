@@ -36,3 +36,25 @@ body{
     outline: none;
     padding: .5rem 16rem .5rem 1.5rem;
 }
+.input-user::placeholder{
+	color: #bdbdbd;
+}
+.btn{
+    width: 13rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.btn:hover{
+	transition: all .5s ease;
+	background-color: #54a0ff;
+}
