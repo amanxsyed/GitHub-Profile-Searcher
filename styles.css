@@ -79,6 +79,7 @@ body{
     overflow: hidden;
 
 }
+
 .info-display-div img{
     width: 15rem;
     height: 15rem;
@@ -116,4 +117,16 @@ body{
 	display: block;
 	margin-top: .7rem;
 }
+.info-display-div .visit-user{
+    margin: 2rem 0 2rem 0;
+}
+.info-display-div .repo{
+    width: 100%;
+}
+
 /* repository section design */
+.repo{
+    width: 100%;
+    display: flex;
+
+}
