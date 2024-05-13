@@ -10,14 +10,22 @@ html{
 }
 body{
     background-color: #acacac;
-    color: #fff;
+    color: #fff; 
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
 }
 .search-wrapper{
 	position: relative;
 	width: 50rem;
 	height: 5rem;
 	background-color: #fff;
-	/* margin-bottom: 3rem;
+	margin-bottom: 3rem;
 	border-radius: 1.5rem;
-	overflow: hidden;  */
+	overflow: hidden; 
 }
