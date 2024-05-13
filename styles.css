@@ -5,3 +5,19 @@
     box-sizing: border-box;
     font-family: 'Muli', sans-serif;
 }
+html{
+    font-size: 0.625rem;
+}
+body{
+    background-color: #acacac;
+    color: #fff;
+}
+.search-wrapper{
+	position: relative;
+	width: 50rem;
+	height: 5rem;
+	background-color: #fff;
+	/* margin-bottom: 3rem;
+	border-radius: 1.5rem;
+	overflow: hidden;  */
+}
