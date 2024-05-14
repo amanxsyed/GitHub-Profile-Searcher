@@ -9,8 +9,12 @@ html{
     font-size: 0.625rem;
 }
 body{
-    background-color: rgb(24, 24, 57);
-    color: #fff; 
+    background-image: url(#);
+     /* Replace with your image path */
+    background-repeat: repeat; /* Repeats the image horizontally */
+    background-size: 64px 64px; /* Specifies the size of the background image */
+    
+    color: #000; 
 	
 }
 .container{
@@ -168,13 +172,16 @@ body{
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
-.repos .item{
+.repo-name{
+    font-size: 1.2rem;
+}
+/* .repos .items{
 	width: 47%;
 	border: 1px solid #fff;
 	border-radius: .5rem;
 	margin-bottom: 1.5rem;
 	padding: 1rem;
-}
+} */
 .repos .repo-name{
 	font-size: 1.2rem;
 	margin-bottom: 1rem;
