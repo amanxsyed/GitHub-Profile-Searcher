@@ -128,20 +128,21 @@ body{
     width: 100%;
 }
 .visit-user a{
+.visit-user a{
 	text-decoration: none;
 	list-style: none;
+	background-color: #000;
+	color: white;
 	background-color: #251e70;
 	color: #fff8f8;
 	padding: 1rem;
 	cursor: pointer;
 	letter-spacing: .1rem;
 	transition: all .5s ease;
-	border-radius: 50%;
-	font
-	
+    
 }
 .visit-user a:hover{
-	background-color: #1f3857;
+	background-color: #54a0ff;
 }
 
 /* repository section design */
