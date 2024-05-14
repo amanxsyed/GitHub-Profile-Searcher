@@ -12,3 +12,13 @@ const visitBtn = document.querySelector(".visit-user a");
 searchBtn.addEventListener("click", function () {
     inputFunction();
 });
+
+// if user press enter it should be submit
+document.querySelector(".input-user").
+    addEventListener("keyup", function (e) {
+        if (e.keyCode === 13) {
+            // alert("You press a enter button");
+            inputFunction();
+        }
+    });
+    
