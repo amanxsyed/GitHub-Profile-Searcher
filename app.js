@@ -110,6 +110,38 @@ function fetchUser() {
                 </div>
             </div>`
                 
+            } else{
+                let repo_Data = repo_data.map(item => {
+
+                    return (
+                        repo_details.innerHTML = `
+
+                        <div class="item">
+                        <div class="repo-name">${item.name}</div>
+                        <div class="repo-details">
+                            <div class="info-star">
+                                <i class="bx bxs-star">
+                                ${item.watchers}
+                                </i>
+                            </div>
+                            <div class="info-fork">
+                                <p> <i class="bx bx-git-repo-forked"></i>
+                                    ${item.forks}
+                                </p>
+                            </div>
+                            <div class="info-size">
+                                <p> <i class="bx bx-file"></i>
+                                    ${item.size}kb
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                        `
+                    );
+                });
+                repo_details.innerHTML = repo_Data.slice().join("");
+
             }
         }
 
