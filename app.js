@@ -8,3 +8,7 @@ const following = document.querySelector(".following span");
 const repo_details = document.querySelector(".repo-details");
 const searchBtn = document.querySelector(".btn");
 const visitBtn = document.querySelector(".visit-user a");
+
+searchBtn.addEventListener("click", function () {
+    inputFunction();
+});
