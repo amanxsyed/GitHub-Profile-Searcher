@@ -9,29 +9,31 @@ const repo_details = document.querySelector(".repo-details");
 const searchBtn = document.querySelector(".btn");
 const visitBtn = document.querySelector(".visit-user a");
 
+var user_name = '';
+
 searchBtn.addEventListener("click", function () {
     inputFunction();
 });
 
 // if user press enter it should be submit
-document.querySelector(".input-user").
+document.querySelector(".input-username").
     addEventListener("keyup", function (e) {
         if (e.keyCode === 13) {
             // alert("You press a enter button");
             inputFunction();
         }
     });
-    var user_name = '';
+    
 
 // when ser writer user name in the text box
 function inputFunction() {
     // trim method will replace before and after white space of given value
-    let input_user = document.querySelector(".input-user").value.trim();
+    let input_user = document.querySelector(".input-username").value.trim();
 
     if (input_user.length <= 0) {
         alert("Please enter github user name");
-        document.querySelector(".input-user").value = "";
-        document.querySelector(".input-user").focus();
+        document.querySelector(".input-username").value = "";
+        document.querySelector(".input-username").focus();
         return false;
     } else {
         user_name = input_user.split("").join("");
@@ -41,7 +43,7 @@ function inputFunction() {
         fetchUser();
 
         // clear the put box and focused is for next
-        document.querySelector(".input-user").value = "";
+        document.querySelector(".input-username").value = "";
         // document.querySelector(".input_user").focus();
     }
 };
