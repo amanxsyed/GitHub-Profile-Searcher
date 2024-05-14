@@ -11,7 +11,7 @@ html{
 body{
     background-color: rgb(24, 24, 57);
     color: #fff; 
-	 border-radius: 50%;
+	
 }
 .container{
     width: 100%;
@@ -30,7 +30,7 @@ body{
 	margin-bottom: 3rem;
 	border-radius: 1.5rem;
 	overflow: hidden; 
-	 border-radius: 50%;
+	border-radius: 1rem;
 }
 .input-username{
     width: 100%;
@@ -67,11 +67,13 @@ body{
     justify-content: center;
     flex-direction: column;
     width: 60rem;
-    box-shadow: 0 0 1rem #fff;
+    box-shadow: 0 0 1rem #d6d3d3;
+	border-radius: 7% 7% 0% 0%;
+	overflow: hidden;
 }
 .info-display-div .user-info{
     width: 100%;
-    height: 65vh;
+    height: 60vh;
     background-color: #fafafa;
     color: #2c2c2c;
     display: flex;
@@ -80,7 +82,7 @@ body{
     flex-direction: column;
     padding: 16rem;
     overflow: hidden;
-	border-radius: 7%;
+	border-radius: 7% 7% 0% 0%;;
 
 }
 
@@ -127,7 +129,7 @@ body{
 .info-display-div .repos{
     width: 100%;
 }
-.visit-user a{
+
 .visit-user a{
 	text-decoration: none;
 	list-style: none;
@@ -139,6 +141,7 @@ body{
 	cursor: pointer;
 	letter-spacing: .1rem;
 	transition: all .5s ease;
+	border-radius: 1rem;
     
 }
 .visit-user a:hover{
