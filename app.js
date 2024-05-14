@@ -45,3 +45,29 @@ function inputFunction() {
         // document.querySelector(".input_user").focus();
     }
 };
+// fetching user from github api
+function fetchUser() {
+
+    fetch(`https://api.github.com/users/${user_name}`)
+        .then(response => response.json())
+        .then(function (data) {
+            // console.log(data);
+            if (data.message === "Not Found") {
+                alert("User not found, Please enter correct user name");
+                return false;
+            } else {
+                user_img.innerHTML = `<img src="${data.avatar_url}">`;
+                userName.innerHTML = data.name;
+                user_Name.innerHTML = data.login;
+                followers.innerHTML = data.followers;
+                following.innerHTML = data.following;
+
+
+                const link = data.html_url;
+
+                visitBtn.setAttribute("href", link);
+
+            }
+        });
+        
+    }
