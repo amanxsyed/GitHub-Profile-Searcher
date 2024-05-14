@@ -21,4 +21,27 @@ document.querySelector(".input-user").
             inputFunction();
         }
     });
-    
+    var user_name = '';
+
+// when ser writer user name in the text box
+function inputFunction() {
+    // trim method will replace before and after white space of given value
+    let input_user = document.querySelector(".input-user").value.trim();
+
+    if (input_user.length <= 0) {
+        alert("Please enter github user name");
+        document.querySelector(".input-user").value = "";
+        document.querySelector(".input-user").focus();
+        return false;
+    } else {
+        user_name = input_user.split("").join("");
+        // if everything is ok run fetch user function
+
+        // this function is not made yet
+        fetchUser();
+
+        // clear the put box and focused is for next
+        document.querySelector(".input-user").value = "";
+        // document.querySelector(".input_user").focus();
+    }
+};
