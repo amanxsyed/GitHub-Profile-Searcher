@@ -140,7 +140,7 @@ body{
 	font
 	
 }
-.visit-user:hover{
+.visit-user a:hover{
 	background-color: #1f3857;
 }
 
