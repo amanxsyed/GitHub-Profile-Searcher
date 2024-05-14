@@ -28,9 +28,9 @@ body{
 	height: 5rem;
 	background-color: #fff;
 	margin-bottom: 3rem;
-	border-radius: 1.5rem;
+	border-radius: 3rem;
 	overflow: hidden; 
-	border-radius: 2rem;
+	border: 1px solid white;
 }
 .input-username{
     width: 100%;
@@ -56,6 +56,8 @@ body{
     font-size: 1.5rem;
     cursor: pointer;
     transition: all .3s ease;
+	
+	
 }
 .btn:hover{
 	transition: all .5s ease;
