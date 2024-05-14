@@ -79,7 +79,7 @@ function fetchUser() {
 
                
 
-        // if user type randome name which is user but not have repository
+        // if user type random name which is user but not have repository
         
         if (repo_data <= 0) {
             repo_details.innerHTML = `
@@ -89,6 +89,30 @@ function fetchUser() {
                 </div>`
                 
         }
+        else {
+            // when you type random user name if user have repos
+    
+            if (repo_data.message === "Not Found") {
+                repo_details.innerHTML = `
+    
+                <div class="item">
+                <div class="repo-name">devUmar</div>
+                <div class="repo-details">
+                    <div class="info-star">
+                        <i class="bx bxs-star"></i>
+                    </div>
+                    <div class="info-fork">
+                        <p> <i class="bx bx-git-repo-forked"></i>0</p>
+                    </div>
+                    <div class="info-size">
+                        <p> <i class="bx bx-file"></i>0kb </p>
+                    </div>
+                </div>
+            </div>`
+                
+            }
+        }
 
     });
+    
 }
