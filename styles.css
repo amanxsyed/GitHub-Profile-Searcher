@@ -12,7 +12,7 @@ body{
     background-image: url(image/github\ shahka.png);
      /* Replace with your image path */
     background-repeat: repeat; /* Repeats the image horizontally */
-    background-size: 64px 64px; /* Specifies the size of the background image */
+    background-size: 75px 75px; /* Specifies the size of the background image */
 	background-color: #000;
     color: #000; 
 	
@@ -76,12 +76,16 @@ body{
     box-shadow: 0 0 1rem #d6d3d3;
 	border-radius: 7% 7% 0% 0%;
 	overflow: hidden;
+    /* background-color: #fafafa; */
+    background: linear-gradient(to left, #ca67bb, #e02cc5, #38bbdf, #0635a1);
+    height: 100vh;
+    margin: 0;
 }
 .info-display-div .user-info{
     width: 100%;
     height: 60vh;
-    background-color: #fafafa;
-    color: #2c2c2c;
+    /* background-color: #fafafa; */
+    color: #fff8f8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,6 +166,8 @@ body{
     flex-direction: column;
     padding: 5rem 2rem;
     scroll-behavior: auto;
+    /* background-color: #1d0f43; */
+    color: white;
 }
 .repos h2{
 	font-size: 2.2rem;
