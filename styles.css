@@ -9,11 +9,11 @@ html{
     font-size: 0.625rem;
 }
 body{
-    background-image: url(#);
+    background-image: url(image/github\ shahka.png);
      /* Replace with your image path */
     background-repeat: repeat; /* Repeats the image horizontally */
     background-size: 64px 64px; /* Specifies the size of the background image */
-    
+	background-color: #000;
     color: #000; 
 	
 }
