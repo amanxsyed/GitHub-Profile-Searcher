@@ -70,4 +70,25 @@ function fetchUser() {
             }
         });
         
-    }
+
+    // fetching repo
+    fetch(`https://api.github.com/users/${user_name}/repos`)
+    .then(response => response.json())
+    .then (function (repo_data) {
+        // console.log(repo_data);
+
+               
+
+        // if user type randome name which is user but not have repository
+        
+        if (repo_data <= 0) {
+            repo_details.innerHTML = `
+
+                <div class="item">
+                    <div class="repo_name">No Repo Found</div>
+                </div>`
+                
+        }
+
+    });
+}
