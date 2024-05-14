@@ -123,17 +123,18 @@ body{
 .info-display-div .repos{
     width: 100%;
 }
-.visit-user{
+.visit-user a{
 	text-decoration: none;
 	list-style: none;
-	background-color: #130f40;
-	color: #fff;
+	background-color: #000;
+	color: white;
 	padding: 1rem;
 	cursor: pointer;
 	letter-spacing: .1rem;
 	transition: all .5s ease;
+    
 }
-.visit-user:hover{
+.visit-user a:hover{
 	background-color: #54a0ff;
 }
 
