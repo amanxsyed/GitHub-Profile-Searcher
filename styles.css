@@ -30,7 +30,7 @@ body{
 	margin-bottom: 3rem;
 	border-radius: 1.5rem;
 	overflow: hidden; 
-	border-radius: 1rem;
+	border-radius: 2rem;
 }
 .input-username{
     width: 100%;
@@ -51,7 +51,7 @@ body{
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #000;
+    background-color: #1d0f43;
     color: #fff;
     font-size: 1.5rem;
     cursor: pointer;
