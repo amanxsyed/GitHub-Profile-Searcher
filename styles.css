@@ -9,8 +9,9 @@ html{
     font-size: 0.625rem;
 }
 body{
-    background-color: blue;
+    background-color: rgb(24, 24, 57);
     color: #fff; 
+	 border-radius: 50%;
 }
 .container{
     width: 100%;
@@ -19,6 +20,7 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 5rem;
+	
 }
 .search-wrapper{
 	position: relative;
@@ -28,6 +30,7 @@ body{
 	margin-bottom: 3rem;
 	border-radius: 1.5rem;
 	overflow: hidden; 
+	 border-radius: 50%;
 }
 .input-username{
     width: 100%;
@@ -56,7 +59,7 @@ body{
 }
 .btn:hover{
 	transition: all .5s ease;
-	background-color: #54a0ff;
+	background-color: #4675af;
 }
 /* user information section */
 .info-display-div{
@@ -69,14 +72,15 @@ body{
 .info-display-div .user-info{
     width: 100%;
     height: 65vh;
-    background-color: #fff;
-    color: #000;
+    background-color: #fafafa;
+    color: #2c2c2c;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 16rem;
     overflow: hidden;
+	border-radius: 7%;
 
 }
 
@@ -123,18 +127,21 @@ body{
 .info-display-div .repos{
     width: 100%;
 }
-.visit-user{
+.visit-user a{
 	text-decoration: none;
 	list-style: none;
-	background-color: #130f40;
-	color: #fff;
+	background-color: #251e70;
+	color: #fff8f8;
 	padding: 1rem;
 	cursor: pointer;
 	letter-spacing: .1rem;
 	transition: all .5s ease;
+	border-radius: 50%;
+	font
+	
 }
 .visit-user:hover{
-	background-color: #54a0ff;
+	background-color: #1f3857;
 }
 
 /* repository section design */
