@@ -223,16 +223,39 @@ body{
 	position: fixed;
 	top: 10px;
 	right: 10px;
-	background-color: white;
-	color: #000;
 	border: 1px solid #ccc;
 	padding: 20px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 1rem #d6d3d3;
+	border-radius: 7%;
+	overflow: hidden;
 	z-index: 1000;
 	display: none;
 	text-align: left;
+	background: linear-gradient(to left, #ca67bb, #e02cc5, #38bbdf, #0635a1);
+    height: 20vh;
+    margin: 0;
 }
-  
+#developer-card h2{
+	color: white;
+	text-decoration: none;
+
+}
+.developer{
+	margin-top: 1rem;
+}
+/* #developer-1-link a{
+	color: white;
+	text-decoration: none;
+}  */
+.developer a{
+	color: white;
+	text-decoration: none;
+	transition: text-decoration 0.3s ease, color 0.3s ease ;
+} 
+.developer a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
 .hidden {
 	display: none;
 }
