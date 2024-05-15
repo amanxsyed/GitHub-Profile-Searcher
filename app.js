@@ -150,3 +150,28 @@ function fetchUser() {
     });
     
 }
+// document.addEventListener("DOMContentLoaded", function() {
+//     const developerCard = document.getElementById("developer-card");
+    
+//     // Show the card
+//     developerCard.classList.add("visible");
+  
+//     // Hide the card after 5 seconds
+//     setTimeout(function() {
+//       developerCard.classList.remove("visible");
+//     }, 5000);
+//   });
+  
+document.addEventListener("DOMContentLoaded", function() {
+    const developerCard = document.getElementById("developer-card");
+    
+    // Show the card after 1 second
+    setTimeout(function() {
+      developerCard.classList.add("visible");
+      
+      // Hide the card after 5 seconds
+      setTimeout(function() {
+        developerCard.classList.remove("visible");
+      }, 5000);
+    }, 1000); // 1 second delay before showing the card
+});
