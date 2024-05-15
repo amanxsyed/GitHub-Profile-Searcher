@@ -336,16 +336,12 @@ body{
   
 	.card {
 	  position: fixed;
-	  top: 50%;
-	  left: 50%;
-	  transform: translate(-50%, -50%);
+	  top: 30%;
+	  left: 30%;
+	  transform: translate(-30%, -30%);
 	  width: 90%;
 	  max-width: 300px;
 	  animation: slideIn 5s forwards; /* Add animation for card sliding in */
-	}
-  
-	.progress-bar {
-	  display: none; /* Hide progress bar on mobile */
 	}
 }
 /* @media (max-width: 400px) {
