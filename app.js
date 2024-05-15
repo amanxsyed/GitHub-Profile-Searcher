@@ -161,10 +161,27 @@ function fetchUser() {
 //       developerCard.classList.remove("visible");
 //     }, 5000);
 //   });
-  
 document.addEventListener("DOMContentLoaded", function() {
     const developerCard = document.getElementById("developer-card");
-    
+  
+    // Developer GitHub usernames
+    const developers = [
+      { username: "amanxsyed"},
+      { username: "umarabdullah-991" }
+    ];
+  
+    // Fetch GitHub data for each developer
+    developers.forEach((developer, index) => {
+      fetch(`https://api.github.com/users/${developer.username}`)
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById(`developer-${index + 1}-photo`).src = data.avatar_url;
+          document.getElementById(`developer-${index + 1}-link`).href = data.html_url;
+          document.getElementById(`developer-${index + 1}-link`).textContent = `${data.name || developer.username}`;
+        })
+        .catch(error => console.error('Error fetching GitHub data:', error));
+    });
+  
     // Show the card after 1 second
     setTimeout(function() {
       developerCard.classList.add("visible");
@@ -174,4 +191,5 @@ document.addEventListener("DOMContentLoaded", function() {
         developerCard.classList.remove("visible");
       }, 5000);
     }, 1000); // 1 second delay before showing the card
-});
+  });
+  
