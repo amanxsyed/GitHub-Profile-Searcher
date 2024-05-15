@@ -240,14 +240,13 @@ body{
 	text-decoration: none;
 
 }
-.developer{
-	margin-top: 1rem;
-}
+
 /* #developer-1-link a{
 	color: white;
 	text-decoration: none;
 }  */
 .developer a{
+	font-size: 1.5rem;
 	color: white;
 	text-decoration: none;
 	transition: text-decoration 0.3s ease, color 0.3s ease ;
@@ -264,6 +263,7 @@ body{
 	display: block;
 }
 .developer {
+	margin-top: 1rem;
 	display: flex;
 	align-items: center;
 	margin-bottom: 10px;
