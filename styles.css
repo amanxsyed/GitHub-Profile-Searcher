@@ -272,7 +272,52 @@ body{
 	to { width: 100%; }
 }
 /* media queries */
+/* Media queries for tablet devices */
 @media (max-width: 800px) {
+    .container {
+        padding: 9rem;
+    }
+    .info-display-div {
+        width: 60rem;
+        margin-top: 4rem;
+    }
+    .info-display-div .user-info {
+        padding: 2rem;
+    }
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 400px) {
+    .info-display-div {
+        width: 35rem;
+        margin-left: .2rem;
+    }
+    .repos .repo-details .item {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .repos .repo-name {
+        font-size: 1.3rem;
+        margin-bottom: 1.8rem;
+    }
+    .search-wrapper {
+        width: 35rem;
+        margin-top: -5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        top: 10px;
+        left: 10px;
+        right: unset;
+        width: calc(100% - 20px);
+        max-width: 300px;
+    }
+}
+
+/* @media (max-width: 800px) {
 	.container {
 		padding: 9rem;
 	}
@@ -318,4 +363,4 @@ body{
 	  width: calc(100% - 20px);
 	  max-width: 300px;
 	}
-}
+} */
