@@ -240,6 +240,33 @@ body{
 .visible {
 	display: block;
 }
+.developer {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+  
+.developer-photo {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.progress-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background-color: yellow;
+	animation: progress 5s linear forwards;
+}
+  
+@keyframes progress {
+	from { width: 0; }
+	to { width: 100%; }
+}
 
 @media (max-width: 400px) {
 	 .info-display-div{
