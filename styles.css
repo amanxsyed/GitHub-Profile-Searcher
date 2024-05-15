@@ -336,8 +336,8 @@ body{
   
 	.card {
 	  position: fixed;
-	  top: 20%;
-	  left: 30%;
+	  top: 17%;
+	  left: 33%;
 	  transform: translate(-25%, -25%);
 	  width: 90%;
 	  max-width: 300px;
