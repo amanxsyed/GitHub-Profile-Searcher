@@ -336,9 +336,9 @@ body{
   
 	.card {
 	  position: fixed;
-	  top: 30%;
-	  left: 30%;
-	  transform: translate(-30%, -30%);
+	  top: 25%;
+	  left: 50%;
+	  transform: translate(-25%, -50%);
 	  width: 90%;
 	  max-width: 300px;
 	  animation: slideIn 5s forwards; /* Add animation for card sliding in */
