@@ -1,10 +1,10 @@
 ### GitHub Profile Search Project
 
-This project is a simple web application designed to allow users to search for GitHub profiles by username. It retrieves user information such as name, username, followers, and following count, along with a list of repositories belonging to the user.
+This project is a simple web application designed to allow users to search for GitHub profiles by username. It retrieves user information from Github API such as name, username, followers, and following count, along with a list of repositories belonging to the user.
 
 ### Features:
 
-1. **User Search:** Users can enter a GitHub username in the search box and press the "Search User" button or hit Enter to retrieve the user's information.
+1. **User Search:** Users can enter a GitHub username in the search box & press the "Search User" button or hit Enter to retrieve the user's information.
 
 2. **Display User Information:** Upon successful search, the user's profile picture, name, username, follower count, and following count are displayed.
 
