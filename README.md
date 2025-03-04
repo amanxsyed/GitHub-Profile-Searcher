@@ -10,7 +10,7 @@ This project is a simple web application designed to allow users to search for G
 
 3. **Visit Profile:** Users can click on the "Visit Profile" link to visit the GitHub profile of the searched user.
 
-4. **Display Repositories:** The application fetches repositories associated with the searched user and displays them, including repository name, star count, fork count, and size.
+4. **Display Repositories:** The application fetches repositories associated with the searched user & displays them, including repository name, no of star count, fork count, and size of the repository.
 
 5. **Responsive Design:** The application is designed to be responsive, ensuring usability across various devices, including desktops, tablets, and mobile phones.
 
@@ -18,7 +18,7 @@ This project is a simple web application designed to allow users to search for G
 
 - **HTML5:** Markup language for structuring the web page.
 - **CSS3:** Styling language used for designing the layout and appearance.
-- **JavaScript (ES6):** Programming language for implementing dynamic behavior and fetching data from the GitHub API.
+- **JavaScript (ES6):** Programming language for implementing dynamic behavior, logic and fetching data from the GitHub API.
 - **GitHub API:** Used for retrieving user information and repositories.
 - **Boxicons:** Provides icons used in the project for enhanced user interface elements.
 
